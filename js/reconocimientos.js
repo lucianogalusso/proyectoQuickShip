@@ -1,5 +1,5 @@
 
-const url.admins = "https://lucianogalusso.github.io/proyectoQuickShip/jason/admins.json";
+const urlAdmins = "https://lucianogalusso.github.io/proyectoQuickShip/jason/admins.json";
 
 var getJSONData = function(url){
     var result = {};
@@ -25,7 +25,7 @@ var getJSONData = function(url){
 
 document.addEventListener("DOMContentLoaded", function (e) {
 	
-	getJSONData(url.admins).then(function(resultObj){
+	getJSONData(urlAdmins).then(function(resultObj){
         if (resultObj.status === "ok")
         {
             categoriesArray = resultObj.data;
@@ -40,7 +40,7 @@ function showCategoriesList(array){
     document.getElementById("admin").innerHTML = "";
     document.getElementById("trabajadores").innerHTML = "";
 
-    fetch(url.admins)
+    fetch(urlAdmins)
         .then(respuesta => respuesta.json())
 
         .then(datos => {
@@ -54,17 +54,17 @@ function showCategoriesList(array){
                 if (elem.admin) {
 
                 	htmlContentToAppendAdmin += `
-	                <li>Nombre:`+ elem.nombre +`<br>
-	                email de contacto:`+ elem.email +`
-	                </li>	             
+	                <li>Nombre:`+ elem.nombre +` <img src="../images/demo/avatar.png" alt=""><br><br>
+	                Email de contacto:`+ elem.email +`
+	                </li><br>	             
 			        `
 
                 }else{
 
                 	htmlContentToAppendTrabajadores += `
-	                <li>Nombre:`+ elem.nombre +`<br>
-	                email de contacto:`+ elem.email +`
-	                </li>	             
+	                <li>Nombre:`+ elem.nombre +` <img src="../images/demo/avatar.png" alt=""><br><br>
+	                Email de contacto:`+ elem.email +`
+	                </li><br>	             
 			        `
 
                 }
