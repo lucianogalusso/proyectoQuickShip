@@ -1,0 +1,33 @@
+[
+    {
+        "id": "0001",
+        "nombre desti": "Jorge Nitales",
+        "nombre despa": "Pepe Argento",
+        "estado": "en camino",
+        "destino": "BsAs",
+        "origen": "Montevideo",
+        "fecha.hora": "(formato)",
+        "tamaño": "grande"
+    },
+    {
+        "id": "5169562",
+        "nombre desti": "Pepe Argento",
+        "nombre despa": "Jorge Nitales",
+        "estado": "en camino",
+        "destino": "Montevideo",
+        "origen": "BsAs",
+        "fecha.hora": "(formato)",
+        "tamaño": "chico"
+    },
+    {
+        "id": "5169562",
+        "nombre desti": "Jorge Nitales",
+        "nombre despa": "Moria Casan",
+        "estado": "procesando",
+        "destino": "Punta del Este",
+        "origen": "Montevideo",
+        "fecha.hora": "(formato)",
+        "tamaño": "mediano"
+    }
+
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "id": "5169562",
+        "nombre": "Jorge Nitales",
+        "email": "jorgito@gmail.com",
+        "telefono": "099845688",
+        "contraseña": "0000"
+    },
+    {
+        "id": "5963562",
+        "nombre": "Pepe Argento",
+        "email": "vamodiego@gmail.com",
+        "telefono": "094565688",
+        "contraseña": "0001"
+    },
+    {
+        "id": "5161472",
+        "nombre": "Moria Casan",
+        "email": "moria4ever@gmail.com",
+        "telefono": "099845562",
+        "contraseña": "0002"
+    }
+
+]
