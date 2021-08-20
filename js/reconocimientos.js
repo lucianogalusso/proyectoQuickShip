@@ -51,7 +51,7 @@ function showCategoriesList(array){
             for(let i = 0; i < datos.length; i++){
                 let elem = datos[i];
 
-                if (elem.admin) {
+                if (elem.admin === "true") {
 
                 	htmlContentToAppendAdmin += `
 	                <li>Nombre:`+ elem.nombre +` <img src="../images/demo/avatar.png" alt=""><br><br>
